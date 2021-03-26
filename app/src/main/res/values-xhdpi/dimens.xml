@@ -1,0 +1,5 @@
+<resources>
+	<dimen name="size40">30dp</dimen>
+	<dimen name="size120">90dp</dimen>
+	<dimen name="size80">60dp</dimen>
+</resources>

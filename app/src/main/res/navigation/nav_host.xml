@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_host"
+    app:startDestination="@id/hubFragment">
+
+    <fragment
+        android:id="@+id/hubFragment"
+        android:name="castelles.com.github.pokedex.view.HubFragment"
+        android:label="HubFragment" >
+        <action
+            android:id="@+id/action_hubFragment_self2"
+            app:destination="@id/hubFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+</navigation>
