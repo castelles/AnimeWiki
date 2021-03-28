@@ -27,9 +27,9 @@ class HubFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        back.setOnClickListener {
-            findNavController().navigate(R.id.action_hubFragment_self2)
-        }
+//        back.setOnClickListener {
+//            findNavController().navigate(R.id.action_hubFragment_self2)
+//        }
 
     }
 }
